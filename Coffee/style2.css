@@ -1,0 +1,126 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F5F5F0;
+    margin:0px;
+    padding:0px;
+    
+
+}
+@media screen and (max-width: 900px) {
+    main.main, .main, .container, .grind {
+        max-width: 100%;
+        padding:0 0.5rem;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:20px;
+    padding-top:22px;
+    z-index: 1000;
+    border-bottom: 2px solid black;
+    background-color: #333333;
+    
+}
+.logo a{
+    color: rgb(223, 53, 81);
+
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    margin:10px;
+    padding:2px;
+    text-decoration: none;
+    font-weight:bold;
+
+}
+nav a:hover{
+    text-decoration: underline;
+    color:#D4A5A5;
+}
+
+h1{
+    text-align: center;
+    padding:20px;
+    color:#2F3A56;
+}
+
+p{
+    padding:10px;
+    color: #6D4C41;
+}
+/*footer*/
+
+footer{
+    background-color:#8A9A5B;
+    padding:50px;
+    border-radius: 1.5rem 1.5rem 0 0;
+    border-top: 2px solid black;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    padding: 20px;
+    gap:60px;
+}
+.footer__pay-card{
+    width:50px;
+    border-radius:10px;
+    
+    
+}
+.contact, .extras, .payment, .follow{
+     color:#291e2e;
+    width: auto;
+
+}
+.extras input {
+    padding:5px;
+    margin-right:5px;
+}
+
+.follow_us{
+     width:30px;
+    border-radius:10px;
+    
+
+}
+.extras button{
+  background-color: #5a3a1e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#h4{
+    color:white;
+    text-align:left;
+}
+button{
+     
+    padding:8px 15px;
+    background-color:#6f4e37;
+    color:#E0A458;
+    border:none;
+    cursor:pointer;
+    border-radius:10px;
+
+}
+input{
+    border:5px solid #6f4e37;
+    border-radius: 10px;
+}
+
+hr{
+    width:700px;
+    color:black;
+}

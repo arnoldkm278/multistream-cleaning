@@ -1,0 +1,233 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#F5F5F0;
+    margin:0px;
+    padding:0px;
+}
+@media screen and (max-width: 900px) {
+    main.main, .main, .container, .grind {
+        max-width: 100%;
+        padding:0 0.5rem;
+    }
+}
+
+button{
+     
+    padding:8px 15px;
+    background-color:#6f4e37;
+    color:#E0A458;
+    border:none;
+    cursor:pointer;
+    border-radius:10px;
+
+}
+
+
+.home {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    color: #4E342E;
+    height:100vh;
+    padding-left:80px;
+    align-items: center;
+
+    /* Background image */
+    background-image: url('./images/360_F_276353920_LYBJg7bylEGmGJJhfFP7waS1kI1jbC4m.jpg');
+    
+    /* Make the image cover the whole div */
+    background-size: cover;
+
+    /* Center the image */
+    background-position: center;
+
+    /* Prevent repeating */
+    background-repeat: no-repeat;
+
+    /* Optional: add height so it’s visible */
+    height: 500px; /* adjust as needed */
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+
+
+#header{
+ max-width: 500px;
+
+}
+#b2{
+     padding:8px 15px;
+    background-color:#b4659c;
+    color:#E0A458;
+    border:none;
+    cursor:pointer;
+    border-radius:10px;
+    
+}
+#b2:hover{
+    background-color:rgb(223, 53, 81);
+}
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navigation section */
+nav{
+    display:flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:20px;
+    padding-top:22px;
+    z-index: 1000;
+    border-bottom: 2px solid black;
+    background-color: #333333;
+    
+}
+
+
+#introduction{
+  border: 4px solid #2F3A56;   
+  border-radius: 12px;            
+  padding: 15px;                   
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+  margin:10px;
+  background-color: #f1e6e6;
+}
+#Menu{
+  border: 4px solid #2F3A56;       
+  border-radius: 12px;            
+  padding: 15px;                   
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+  margin:10px;
+  background-color: #ece4eb;
+}
+
+.logo a{
+    color: rgb(223, 53, 81);
+
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    margin:10px;
+    padding:2px;
+    text-decoration: none;
+    font-weight:bold;
+
+}
+footer{
+    background-color:#8A9A5B;
+    padding:50px;
+    border-radius: 1.5rem 1.5rem 0 0;
+    border-top: 2px solid black;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    padding: 20px;
+    gap:60px;
+}
+
+
+
+input{
+    border:5px solid #6f4e37;
+    border-radius: 10px;
+}
+
+#h4{
+    color:white;
+    text-align:left;
+}
+nav a:hover{
+    text-decoration: underline;
+    color:#D4A5A5;
+}
+#h2{
+  color:#1B3A4B;
+  font-family:"Playfair Display", serif;
+  text-align: center;
+
+}
+
+
+
+#para{
+    color:#5E6F68;
+    font-family:'Lore', serif;
+    text-align:center
+}
+.footer__pay-card{
+    width:50px;
+    border-radius:10px;
+    
+    
+}
+
+
+.product{
+    border:5px soild #333;
+    max-width: 300px;
+    border-style: groove;
+    border-radius: 10%;
+    margin: 10px;
+    width:260px;
+    box-sizing: border-box;
+    background-color: #7795a5;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+      
+}
+
+.product-container{
+    display:flex;
+    justify-content: center;    
+    flex-wrap: wrap;      
+    gap:15px;
+
+}
+.contact, .extras, .payment, .follow{
+     color:#291e2e;
+    width: auto;
+
+}
+
+.extras input {
+    padding:5px;
+    margin-right:5px;
+}
+
+.follow_us{
+     width:30px;
+    border-radius:10px;
+    
+
+}
+.extras button{
+  background-color: #5a3a1e;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+#b1{
+    padding:8px 15px;
+    background-color:#6f4e37;
+    color:#E0A458;
+    border:none;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+#b1:hover{
+    background-color:#C58940;
+}
+
